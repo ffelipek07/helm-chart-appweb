@@ -1,3 +1,5 @@
 parameters:
-  aws_access_key_id: {{ .Values.secrets.aws_access_key_id }}
-  aws_secret_access_key: ${{ .Values.secrets.aws_secret_access_key }}
+  database_username: {{ .Values.configs.databaseUsername }}
+  database_password: ${{ .Values.secrets.databasePassword }}
+  database_host: {{ .Values.configs.databaseHost }}
+  database_port: {{ .Values.configs.databasePort }}
