@@ -38,7 +38,7 @@ securityContext: {}
 
 service:
   type: ClusterIP
-  port: 3081
+  port: 80
 
 ingress:
   enabled: false
@@ -80,3 +80,7 @@ nodeSelector: {}
 tolerations: []
 
 affinity: {}
+
+secrets:
+  aws_access_key_id: $AWS_ACCESS_KEY_ID
+  aws_secret_access_key: $AWS_SECRET_ACCESS_KEY
