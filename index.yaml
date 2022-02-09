@@ -3,12 +3,12 @@ entries:
   appweb:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2022-02-09T16:45:52.217743438-03:00"
+    created: "2022-02-09T19:04:46.21281572-03:00"
     description: A Helm chart for Kubernetes
-    digest: e3ff236db4c188465c083887da41711cc6511cf9461acbfd7cd340c674967e98
+    digest: c4494acd0e07df70b9bd83cf3da4c3b84c068b8760360caab9b7536eae54debe
     name: appweb
     type: application
     urls:
     - https://ffelipek07.github.io/helm-chart-appweb/appweb-0.1.0.tgz
     version: 0.1.0
-generated: "2022-02-09T16:45:52.216176824-03:00"
+generated: "2022-02-09T19:04:46.209922478-03:00"
